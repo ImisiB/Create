@@ -36,16 +36,17 @@
   position: sticky;
 }
 .white{
-  background-color: white;
+  background-color: red;
   padding: 20px 30px 20px 50px;
+  position:relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-left: 40px;
 }
 .create{
   font-family: Arial;
   font-size: 30px;
+  /* background-color: blue; */
 }
 .create span{
   color: #32dbc6;
@@ -54,7 +55,11 @@
 }
 .option{
   display: flex;
-  margin-right: 40px;
+  margin-right: 20px;
+  justify-content: space-between;
+  /* background-color: red; */
+  width: 530px;
+  padding: 20px;
 }
 .home{
   cursor: pointer;
@@ -67,9 +72,43 @@
   cursor: pointer;
   font-family: Arial;
   font-size: 14px;
-  margin-right: 10px;
+  margin-right: 20px;
 }
 .work:hover{
   color: #32dbc6;
   transition-duration: 0.3s;
+}
+.all{
+  /* text-align: center; */
+}
+.about{
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 14px;
+  margin-right: 20px;
+}
+.about:hover{
+  color: #32dbc6;
+  transition-duration: 0.3s;
+}
+.special{
+  display: none;
+  /* background-color: red; */
+}
+.special div{
+  cursor: pointer;
+  font-family: Arial;
+  font-size: medium;
+  padding: 10px 90px 10px 15px;
+  width: 150px;
+}
+.special div:hover{
+  background-color: grey;
+  width: inherit;
+}
+.div1{
+  border-top: solid #32dbc6 2px;
+}
+.all:hover .special{
+  display: block;
 }
