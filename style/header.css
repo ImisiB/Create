@@ -1,0 +1,75 @@
+.head{
+  background-color: #343a40;
+  padding: 10px 40px 10px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.sub-head{
+  display: flex;
+}
+.phone{
+  font-family: Arial;
+  font-weight: 700;
+  color: white;
+  margin-left: 45px;
+  font-size: 14px;
+}
+.info{
+  font-family: Arial;
+  color: #32dbc6;
+  cursor: pointer;
+}
+.info:hover{
+  color: #1da493;
+  transition-duration: 0.2s;
+}
+.social{
+  display: flex;
+  margin-right: 50px;
+}
+.info i{
+  margin-right: 22px;
+}
+.sub{
+  background-color: white;
+  padding: 10px 0px;
+  position: sticky;
+}
+.white{
+  background-color: white;
+  padding: 20px 30px 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 40px;
+}
+.create{
+  font-family: Arial;
+  font-size: 30px;
+}
+.create span{
+  color: #32dbc6;
+  font-family: Arial;
+  font-size: 28px;
+}
+.option{
+  display: flex;
+  margin-right: 40px;
+}
+.home{
+  cursor: pointer;
+  color: #32dbc6;
+  font-family: Arial;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.work{
+  cursor: pointer;
+  font-family: Arial;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.work:hover{
+  color: #32dbc6;
+  transition-duration: 0.3s;
+}
