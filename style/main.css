@@ -1,0 +1,46 @@
+.lap{
+  background-image: url(../img/hero_1.jpg.webp);
+  height: 93.5vh;
+  background-size: 1240px;
+  position: relative;
+  z-index: 0;
+}
+.laptop{
+  background-color: #00000033;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: inherit;
+}
+.build{
+  text-align: center;
+  background-color: red;
+  
+}
+.love{
+  font-size: 50px;
+  font-family: Arial;
+  color: white;
+  margin-bottom: 20px;
+}
+.free{
+  font-size: 20px;
+  color: white;
+  font-family: Arial;
+  margin-bottom: 40px;
+}
+.free a{
+  cursor: pointer;
+  color: #32dbc6;
+}
+.video{
+  font-size: 14px;
+  text-transform: uppercase;
+  font-family: Arial;
+  border-radius: 50px;
+  color: #212529;
+  text-align: center;
+  background-color: #32dbc6;
+  padding: 10px 10px;
+  width: 50px;
+}

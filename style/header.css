@@ -30,18 +30,17 @@
 .info i{
   margin-right: 22px;
 }
-.sub{
-  background-color: white;
-  padding: 10px 0px;
-  position: sticky;
-}
+
 .white{
-  /* background-color: red; */
+  background-color: white;
   /* padding: 0px 30px; */
+  width: 95%;
   height: 80px;
   padding: 0px 30px 0px 50px;
+  z-index: 100;
   /* position:relative; */
   display: flex;
+  position: fixed;
   align-items: center;
   justify-content: space-between;
 }
@@ -79,33 +78,25 @@
   cursor: pointer;
   font-family: Arial;
   font-size: 14px;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
 }
 .work:hover{
   color: #32dbc6;
   transition-duration: 0.3s;
 }
 .all{
-  /* background-color: red; */
   position: relative;
   display: flex;
   align-items: center;
   flex-wrap: wrap;
-
-justify-content: space-between;  /* position: relative;
-  overflow: hidden; */
-  /* text-align: top; */
-  height: 20px; 
+  /* height: 20px;  */
+  /* background-color: #1da493; */
+  width: fit-content;
 }
 .about{
-  cursor: pointer;
-  font-family: Arial;
-  font-size: 14px;
-  margin-right: 20px;
   position: relative;
-  /* width: 40px; */
-  /* height: 20px; */
-  text-align: center;
+  /* margin-bottom: 33px; */
 }
 .about:hover{
   color: #32dbc6;
@@ -113,25 +104,25 @@ justify-content: space-between;  /* position: relative;
 }
 .special{
   text-align: center;
-  height: fit-content;
+  position: absolute;
+  top: 100%;
 }
 .special div{
+  display: none;
+  padding: 10px 40px 10px 20px;
   cursor: pointer;
   font-family: Arial;
   font-size: 14px;
-  padding: 10px 20px 10px 40px;
-  width: 150px;
 }
 .special div:hover{
-  background-color: grey;
-  /* width: inherit; */
+  background-color: lightgray;
 }
 .div1{
   border-top: solid #32dbc6 2px;
 }
 .all:hover .special div{
-  /* position: absolute; */
-  /* bottom: 0; */
+  display: block;
+  /* bottom: 0;
   translate: 0px -30px;
-  transition-duration: 0.2s;
+  transition-duration: 0.2s; */
 }
