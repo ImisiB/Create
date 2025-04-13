@@ -57,8 +57,9 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
-  padding: 60px 60px;
+  padding: 60px 60px 60px 100px;
 }
+
 .numbers{
   position: relative;
   /* background-color: red; */
@@ -67,23 +68,35 @@
 }
 .number{
   position: absolute;
-  top: -50px;
-  left: -50px;
+  top: -15px;
+  left: -20px;
   font-family: Arial;
-  font-size: 150px;
+  font-weight: 700;
+  font-size: 100px;
   z-index: -1;
-  color: lightgray;
+  color: rgba(211, 211, 211, 0.4);
 }
 .innovate{
   color: #21b9a6;
   font-family: Arial;
-  font-size: 30px;
+  font-size: 32px;
   margin-bottom: 14px;
 }
 .lorem{
+  margin-bottom: 20px;
   font-family: Arial;
   font-size: 16px;
   color: #4d4d4d;
   width: 300px;
   line-height: 30px;
+}
+.checked i{
+  color: #21b9a6;
+  font-size: 16px;
+  margin-right: 5px;
+}
+.checked{
+  margin-bottom: 15px;
+  color: #4d4d4d;
+  font-family: Arial;
 }
