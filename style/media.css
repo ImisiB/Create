@@ -1,13 +1,5 @@
 @media screen and (min-width: 991px) {
   .innovation{
-    padding: 60px 0px;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-}
-
-@media screen and (max-width: 1113px) {
-  .innovation{
     padding: 60px 10px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -15,4 +7,161 @@
   .lorem{
     width: 200px;
   }
+  .pic img{
+    height: 300px;
+    width: 300px;  
+  }
+  .tree{
+    width: 300px;
+    height: 300px;  
+  }
+  .trees{
+    top: 115px;
+    width: 300px;  
+  }
 }
+@media screen and (max-width: 991px) {
+  .innovation{
+    padding: 60px 0px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+  }
+  .over{
+    grid-template-columns: 1fr 1fr;
+  }
+  .pic img{
+    height: 470px;
+    width: 470px;  
+  }
+  .tree{
+    width: 470px;
+    height: 470px;  
+  }
+  .trees{
+    top: 185px;
+    width: 470px;  
+  }
+}
+@media screen and (max-width: 986px) {
+  .innovation{
+    padding: 60px 60px 60px 100px;
+    display: grid; 
+    grid-template-columns: 1fr;
+  }
+  .lorem{
+    width: 450px;
+  }
+  .over{
+    grid-template-columns: 1fr 1fr;
+  }
+  .pic img{
+    height: 420px;
+    width: 420px;  
+  }
+  .tree{
+    width: 420px;
+    height: 420px;
+  }
+  .trees{
+    top: 215px;
+    width: 420px;  
+  }
+}
+@media screen and (max-width: 891px) {
+  .innovation{
+    padding: 60px 60px 60px 100px;
+    display: grid; 
+    grid-template-columns: 1fr;
+  }
+  .lorem{
+    width: 450px;
+  }
+  .over{
+    grid-template-columns: 1fr 1fr;
+  }
+  .pic img{
+    height: 380px;
+    width: 380px;  
+  }
+  .tree{
+    width: 380px;
+    height: 380px;
+  }
+  .trees{
+    top: 165px;
+    width: 380px;  
+  }
+}
+@media screen and (max-width: 802px) {
+  .innovation{
+    padding: 60px 60px 60px 100px;
+    display: grid; 
+    grid-template-columns: 1fr;
+  }
+  .lorem{
+    width: 450px;
+  }
+  .over{
+    grid-template-columns: 1fr 1fr;
+  }
+  .pic img{
+    height: 350px;
+    width: 350px;  
+  }
+  .tree{
+    width: 350px;
+    height: 350px;
+  }
+  .trees{
+    top: 145px;
+    width: 350px;  
+  }
+}
+@media screen and (max-width: 728px) {
+  .innovation{
+    padding: 60px 60px 60px 100px;
+    display: grid; 
+    grid-template-columns: 1fr;
+  }
+  .lorem{
+    width: 450px;
+  }
+  .over{
+    grid-template-columns: 1fr;
+  }
+  .pic img{
+    height: 620px;
+    width: 620px;  
+  }
+  .tree{
+    width: 620px;
+    height: 620px;
+  }
+  .trees{
+    top: 315px;
+    width: 620px;  
+  }
+}
+@media screen and (min-width: 1012px) {
+  .innovation{
+    padding: 60px 60px 60px 100px;
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .lorem{
+    width: 300px;
+  }
+  .pic img{
+    height: 370px;
+    width: 370px;  
+  }
+  .tree{
+    width: 370px;
+    height: 370px;
+  }
+  .trees{
+    top: 155px;
+    width: 370px;  
+  }
+}
+

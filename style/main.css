@@ -58,8 +58,8 @@
   grid-template-columns: 1fr 1fr 1fr;
   justify-content: center;
   padding: 60px 60px 60px 100px;
+  margin-bottom: 150px;
 }
-
 .numbers{
   position: relative;
   /* background-color: red; */
@@ -99,4 +99,76 @@
   margin-bottom: 15px;
   color: #4d4d4d;
   font-family: Arial;
+}
+
+.work{
+  padding: 10px;
+}
+.our{
+  width: 100%;
+  text-align: center;
+  font-size: 48px;
+  font-family: Arial;
+  margin-bottom: 20px;
+}
+.car{
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.lores{
+  font-family: Arial;
+  font-size: 16px;
+  color: #4d4d4d;
+  line-height: 30px;
+  width: 600px;
+}
+.over{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0;
+}
+.pic{
+  position: relative;
+  overflow: hidden;
+  margin: auto;
+}
+.pic img{
+  margin-bottom: 15px;
+  height: 370px;
+  width: 370px;
+  cursor: pointer;
+}
+.tree{
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 370px;
+  height: 370px;
+  text-align: center;
+  cursor: pointer;
+  position: absolute;
+}
+.trees{
+  position: absolute;
+  top: 155px;
+  width: 370px;
+  text-align: center;
+}
+.cat{
+  font-size: 1.5rem;
+  color: white;
+  font-family: Arial;
+}
+.web{
+  font-family: Arial;
+  letter-spacing: 3px;
+  color: #999999;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+.pic:hover .tree{
+  top: 370px;
+  transition-duration: 0.4s;
+  translate: 0px -370px;
 }
