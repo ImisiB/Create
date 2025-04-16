@@ -172,3 +172,45 @@
   transition-duration: 0.4s;
   translate: 0px -370px;
 }
+
+.black{
+  padding: 100px;
+}
+.paint{
+  background-color: black;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.hand img{
+  height: 400px;
+  width: 400px;
+}
+.away{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.strategy{
+  color: white;
+  font-family: Arial;
+  margin-bottom: 6px;
+  font-size: 18px;
+}
+.strategy i{
+  margin-right: 8px;
+}
+.word{
+  line-height: 25px;
+  width: 230px;
+  font-family: Arial;
+  font-size: 15px;
+  color: #737373;
+  margin-bottom: 10px;
+}
+.more{
+  font-size: 16px;
+  color: white;
+  font-family: Arial;
+  text-decoration: underline;
+  cursor: pointer;
+}

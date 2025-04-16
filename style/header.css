@@ -45,6 +45,7 @@
   position: fixed;
   align-items: center;
   justify-content: space-between;
+  box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.2);
 }
 .create{
   font-family: Arial;
