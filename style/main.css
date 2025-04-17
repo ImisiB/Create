@@ -191,6 +191,7 @@
   grid-template-columns: 1fr 1fr;
 }
 .strategy{
+  width: 120px;
   color: white;
   font-family: Arial;
   margin-bottom: 6px;
@@ -213,4 +214,5 @@
   font-family: Arial;
   text-decoration: underline;
   cursor: pointer;
+  width: 100px;
 }

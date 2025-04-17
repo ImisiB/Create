@@ -19,6 +19,15 @@
     top: 115px;
     width: 300px;  
   }
+  .black{
+    padding: 20px;
+  }
+  .paint{
+    grid-template-columns: 1fr 1fr;
+  }
+  .away{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media screen and (max-width: 991px) {
   .innovation{
@@ -40,6 +49,21 @@
   .trees{
     top: 185px;
     width: 470px;  
+  }
+  .black{
+    padding: 20px;
+  }
+  .word{
+    width: 500px;
+  }
+  .paint{
+    grid-template-columns: 1fr;
+  }
+  .away{
+    grid-template-columns: 1fr;
+  }
+  .wrote{
+    margin-bottom: 50px;
   }
 }
 @media screen and (max-width: 986px) {
@@ -141,6 +165,16 @@
     top: 315px;
     width: 620px;  
   }
+  .black{
+    padding: 20px;
+  }
+  .paint{
+    grid-template-columns: 1fr;
+  }
+  .away{
+    grid-template-columns: 1fr;
+  }
+
 }
 @media screen and (min-width: 1012px) {
   .innovation{
