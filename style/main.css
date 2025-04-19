@@ -230,11 +230,14 @@
   text-decoration: none;
 }
 
+.testimonials{
+  margin-bottom: 150px;
+}
 .testimonial{
   width: 100%;
   text-align: center;
 }
-.testimony{
+.our{
   font-family: Arial;
   font-size: 50px;
   margin-bottom: 20px;
@@ -289,3 +292,47 @@
   margin-right: 7px;
   cursor: pointer;
 }
+
+.service{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 50px 100px;
+}
+.serve{
+  margin-right: 50px;
+  display: flex;
+  margin-bottom: 50px;
+}
+.top{
+  margin-right: 10px;
+}
+.top i{
+  font-size: 40px;
+  color: #21b9a6;
+}
+.can{
+  padding: 8px;
+}
+.sun{
+  font-size: 1.3rem;
+  font-family: Arial;
+  color: #4D4D4D;
+  margin-bottom: 8px;
+}
+.frame{
+  color: #737373;
+  font-family: Arial;
+  font-size: 0.9rem;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+.learn{
+  color: #32dbc6;
+  font-family: Arial;
+  cursor: pointer;
+}
+.learn:hover{
+  color: #1da493;
+  transition-duration: 0.3s;
+}
+/* commit */
