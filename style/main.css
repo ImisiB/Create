@@ -335,4 +335,9 @@
   color: #1da493;
   transition-duration: 0.3s;
 }
-/* commit */
+
+.line{
+  height: 1px;
+  width: 100%;
+  background-color: grey;
+}

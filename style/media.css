@@ -28,6 +28,9 @@
   .away{
     grid-template-columns: 1fr 1fr;
   }
+  .service{
+    margin-right: 0;
+  }
 }
 @media screen and (max-width: 991px) {
   .innovation{
@@ -71,6 +74,10 @@
   }
   .wrote{
     margin-bottom: 50px;
+  }
+  .service{
+    grid-template-columns: 1fr 1fr;
+    margin-right: 30px;
   }
 }
 @media screen and (max-width: 986px) {
@@ -202,6 +209,9 @@
   }
   .wrote{
     margin-bottom: 50px;
+  }
+  .service{
+    grid-template-columns: 1fr;
   }
 }
 @media screen and (min-width: 1012px) {
