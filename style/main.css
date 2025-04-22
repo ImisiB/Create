@@ -344,6 +344,11 @@
 
 .about{
   padding: 100px 100px;
+  margin-bottom: 200px;
+}
+.know{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 .left{
   font-family: Arial;
@@ -359,11 +364,33 @@
   font-size: 1.25rem;
   margin-bottom: 1.5rem;
 }
+.bat{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .run{
   font-size: 3rem;
   color: #4D4D4D;
+  margin-bottom: 0.5rem;
 }
-.special{
+.specials{
+  color: #4D4D4D;
   font-size: 1.2rem;
   font-family: Arial;
+  margin-bottom: 0.6rem;
+}
+.level{
+  color: #4D4D4D;
+  font-family: Arial;
+  max-width: 200px;
+  font-size: 1rem;
+  line-height: 29px;
+  margin-bottom: 1.25rem;
+}
+.alive{
+  margin-left: 100px;
+}
+.alive img{
+  height: 450px;
+  width: 450px;
 }
