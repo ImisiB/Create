@@ -339,5 +339,27 @@
 .line{
   height: 1px;
   width: 100%;
-  background-color: grey;
+  background-color: darkgray;
+}
+
+.about{
+  padding: 100px 100px;
+}
+.left{
+  font-family: Arial;
+  font-size: 3.1rem;
+  margin-bottom: 1.25rem;
+}
+.sit{
+  color: #737373;
+  font-family: Arial;
+  max-width: 520px;
+  font-weight: 300;
+  line-height: 33px;
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.run{
+  font-size: 3rem;
+  color: #4D4D4D;
 }
