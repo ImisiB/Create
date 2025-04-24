@@ -343,7 +343,9 @@
 }
 
 .about{
-  padding: 100px 100px;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
   margin-bottom: 200px;
 }
 .know{
@@ -393,4 +395,25 @@
 .alive img{
   height: 450px;
   width: 450px;
+}
+
+.team{
+  padding: 50px 150px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.me{
+  /* background-color: red; */
+  text-align: center;
+}
+.me img{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin-bottom: 60px;
+}
+.name{
+  font-family: Arial;
+  color: #4D4D4D;
+
 }
