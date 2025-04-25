@@ -475,3 +475,20 @@
   color: #1da493;
   transition-duration: 0.3s;
 }
+.ham{
+  display: flex;
+  color: #B3B3B3;
+  font-family: Arial;
+}
+.ham i{
+  margin: 0px 6px;
+}
+.move{
+  font-family: Arial;
+  color: #32dbc6;
+  cursor: pointer;
+}
+.move:hover{
+  color: #1da493;
+  transition-duration: 0.3s;
+}
