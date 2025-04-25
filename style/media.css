@@ -38,6 +38,10 @@
     height: 350px;
     width: 350px;
   }
+  .me img{
+    height: 100px;
+    width: 100px;
+  }
 }
 @media screen and (max-width: 991px) {
   .innovation{
@@ -87,7 +91,7 @@
     margin-right: 30px;
   }
   .about{
-    padding: 100px 150px;
+    padding: 100px 20px;
   }
   .alive img{
     height: 250px;
@@ -101,6 +105,10 @@
   }
   .wish{
     margin-bottom: 2.25rem;
+  }
+  .me img{
+    height: 100px;
+    width: 100px;
   }
 }
 @media screen and (max-width: 986px) {
@@ -127,7 +135,12 @@
     top: 215px;
     width: 420px;  
   }
-  
+  .us{
+    margin-bottom: 2.25rem;
+  }
+  .team{
+    grid-template-columns: 1fr 1fr;
+  }
 }
 @media screen and (max-width: 891px) {
   .innovation{
@@ -237,6 +250,25 @@
   .service{
     grid-template-columns: 1fr;
   }
+  .know{
+    grid-template-columns: 1fr;
+  }
+  .alive{
+    margin-left: 0;
+  }
+  .alive img{
+    height: 350px;
+    width: 350px;
+  }
+}
+@media screen and (max-width: 664px){
+  .team{
+    grid-template-columns: 1fr;
+  }
+  .me img{
+    height: 200px;
+    width: 200px;
+  }
 }
 @media screen and (min-width: 1012px) {
   .innovation{
@@ -248,16 +280,16 @@
     width: 300px;
   }
   .pic img{
-    height: 370px;
-    width: 370px;  
+    height: 270px;
+    width: 270px;  
   }
   .tree{
-    width: 370px;
-    height: 370px;
+    width: 270px;
+    height: 270px;
   }
   .trees{
-    top: 155px;
-    width: 370px;  
+    top: 95px;
+    width: 270px;  
   }
   .about{
     padding: 100px;
@@ -265,5 +297,27 @@
   .alive img{
     height: 450px;
     width: 450px;
+  }
+  .me img{
+    height: 200px;
+    width: 200px;
+  }
+  .team{
+    padding: 50px 80px;
+    width: fit-content;
+  }
+}
+@media screen and (min-width: 1213px){
+  .pic img{
+    height: 370px;
+    width: 370px;  
+  }
+  .tree{
+    width: 370px;
+    height: 370px;  
+  }
+  .trees{
+    top: 155px;
+    width: 370px;  
   }
 }
