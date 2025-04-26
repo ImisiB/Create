@@ -449,26 +449,31 @@
   border-radius: 50%;
   margin-right: 0.8rem;
 }
+
 .blogs{
   padding: 100px;
+  margin-bottom: 100px;
 }
 .blog{
+  margin-top: 1.5rem;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-
+.down{
+  margin-right: 20px;
+}
 .need{
   margin-bottom: 1.25rem;
 }
 .need img{
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
 }
 .learns{
   color: #32dbc6;
   font-family: Arial;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   margin-bottom: 1.25rem;
 }
 .learns:hover{
@@ -479,6 +484,7 @@
   display: flex;
   color: #B3B3B3;
   font-family: Arial;
+  margin-bottom: 1.5rem;
 }
 .ham i{
   margin: 0px 6px;
@@ -492,4 +498,105 @@
   color: #1da493;
   transition-duration: 0.3s;
 }
-/* lmlkm */
+.day{
+  font-family: Arial;
+  color: #4D4D4D;
+  line-height: 25px;
+  font-size: 1rem;
+  font-weight: 400;
+  word-spacing: 0.02rem;
+  margin-bottom: 1rem;
+  text-align: left;
+}
+.continue{
+  font-family: Arial;
+  color: #32dbc6;
+  cursor: pointer;
+}
+.continue:hover{
+  color: #1da493;
+  transition-duration: 0.3s;
+}
+
+.forms{
+  background-color: #f8f9fa;
+  padding: 70px 120px;
+}
+.form{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.lot{
+  background-color: white;
+  padding: 2rem;
+}
+.contact{
+  margin-bottom: 3rem;
+  font-family: Arial;
+  font-size: 1.5rem;
+}
+.label{
+  font-family: Arial;
+  margin-bottom: 1rem;
+}
+.names{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 1.25rem;
+}
+.man{
+  margin-right: 1.25rem;
+}
+.man input{
+  color: #495057;
+  border-radius: 25px;
+  padding: 1rem;
+  font-size: 1.1rem;
+  max-width: 15rem;
+  height: 3rem;
+  border-style: solid;
+  border-color: #ced4da;
+  font-family: Arial;
+}
+.man input:focus{
+  background-color: white;
+  border-style: solid;
+  border-color: #32dbc6;
+}
+.email input{
+  color: #495057;
+  border-radius: 25px;
+  margin-bottom: 1.25rem;
+  padding: 1rem;
+  width: 33rem;
+  font-size: 1.1rem;
+  height: 3rem;
+  font-family: Arial;
+  border-style: solid;
+  border-color: #ced4da;
+}
+.email input:focus{
+  background-color: white;
+  border-style: solid;
+  border-color: #32dbc6;
+}
+.bio textarea{
+  color: #495057;
+  border-radius: 25px;
+  font-family: Arial;
+  margin-bottom: 1.25rem;
+  font-size: 1.1rem;
+  padding: 1rem;
+  border-style: solid;
+  border-color: #ced4da;
+}
+.bio textarea::placeholder{
+  color: #495057;
+  font-family: Arial;
+  font-size: 1.25rem;
+}
+.bio textarea:focus{
+  background-color: white;
+  border-style: solid;
+  border-color: #32dbc6;
+}

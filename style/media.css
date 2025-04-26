@@ -42,6 +42,13 @@
     height: 100px;
     width: 100px;
   }
+  .blogs{
+    padding: 3rem;
+  }
+  .need img{
+    height: 250px;
+    width: 250px;
+  }
 }
 @media screen and (max-width: 991px) {
   .innovation{
@@ -110,6 +117,19 @@
     height: 100px;
     width: 100px;
   }
+  .blogs{
+    padding: 70px;
+  }
+  .blog{
+    grid-template-columns: 1fr 1fr;
+  }
+  .need img{
+    height: 350px;
+    width: 350px;
+  }
+  .down{
+    margin-bottom: 2rem;
+  }
 }
 @media screen and (max-width: 986px) {
   .innovation{
@@ -165,6 +185,19 @@
   .trees{
     top: 165px;
     width: 380px;  
+  }
+  .blogs{
+    padding: 100px;
+  }
+  .need img{
+    height: 550px;
+    width: 550px;
+  }
+    .blog{
+    grid-template-columns: 1fr;
+  }
+  .day{
+    max-width: 550px;
   }
 }
 @media screen and (max-width: 802px) {
@@ -319,5 +352,12 @@
   .trees{
     top: 155px;
     width: 370px;  
+  }
+  .blogs{
+    padding: 100px;
+  }
+  .need img{
+    height: 350px;
+    width: 350px;
   }
 }
