@@ -527,8 +527,8 @@
   grid-template-columns: 1fr 1fr;
 }
 .lot{
-  background-color: white;
-  padding: 2rem;
+  display: flex;
+  /* grid-template-columns: 1fr 1fr; */
 }
 .contact{
   margin-bottom: 3rem;
@@ -544,8 +544,14 @@
   grid-template-columns: 1fr 1fr;
   margin-bottom: 1.25rem;
 }
+.men{
+  margin-right: 4rem;
+  background-color: white;
+  padding: 2rem;
+}
 .man{
   margin-right: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 .man input{
   color: #495057;
@@ -562,11 +568,14 @@
   background-color: white;
   border-style: solid;
   border-color: #32dbc6;
+  outline: none;
+}
+.email{
+  margin-bottom: 1.25rem;
 }
 .email input{
   color: #495057;
   border-radius: 25px;
-  margin-bottom: 1.25rem;
   padding: 1rem;
   width: 33rem;
   font-size: 1.1rem;
@@ -579,12 +588,13 @@
   background-color: white;
   border-style: solid;
   border-color: #32dbc6;
+  outline: none;
 }
 .bio textarea{
   color: #495057;
   border-radius: 25px;
   font-family: Arial;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
   font-size: 1.1rem;
   padding: 1rem;
   border-style: solid;
@@ -596,7 +606,49 @@
   font-size: 1.25rem;
 }
 .bio textarea:focus{
+  outline: none;
   background-color: white;
   border-style: solid;
   border-color: #32dbc6;
+}
+.submit input{
+  background-color: #32dbc6;
+  text-transform: uppercase;
+  color: white;
+  font-size: 0.9rem;
+  cursor: pointer;
+  border-radius: 25px;
+  border-style: none;
+  /* width: 130px; */
+  letter-spacing: 1px;
+  padding: 1.2rem 1.5rem;
+}
+.submit input:active{
+  background-color: #1da493;
+  transition-duration: 0.2s;
+}
+.locate{
+  background-color: white;
+  max-height: fit-content;
+  padding: 2rem;
+  width: 22rem;
+}
+.street{
+  margin-bottom: 1.5rem;
+}
+.address{
+  margin-bottom: 0.5rem;
+  font-weight: 700;
+  color: #4D4D4D;
+  font-family: Arial;
+}
+.fake{
+  font-family: Arial;
+  max-width: 22rem;
+  line-height: 1.7rem;
+  color: #4D4D4D;
+}
+.forms{
+  padding-bottom: 5rem;
+  background-color: #f8f9fa;
 }
