@@ -361,3 +361,25 @@
     width: 350px;
   }
 }
+
+@media screen and (max-width: 1024px) {
+
+}
+@media screen and (max-width: 768px) {
+  .hidden-menu{
+    display: block;
+  }
+  .option{
+    display: none;
+  }
+  .white{
+    justify-content: center;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+
+}
+@media screen and (max-width: 1024px) {
+
+}
