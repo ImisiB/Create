@@ -129,8 +129,10 @@
   width: 600px;
 }
 .over{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
   padding: 0;
 }
 .pic{
@@ -177,7 +179,7 @@
 }
 
 .black{
-  padding: 250px;
+  padding: 100px;
   display: flex;
   justify-content: center;
   margin-bottom: 200px;
@@ -185,18 +187,20 @@
 .paint{
   background-color: black;
   padding: 30px;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  /* flex-wrap: wrap; */
+  justify-content: center;
 }
 .hand img{
   height: 400px;
   width: 400px;
 }
 .away{
-  /* background-color: red; */
-  place-content: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .wrote{
   margin-bottom: 50px;
@@ -214,7 +218,7 @@
 }
 .word{
   line-height: 25px;
-  width: 230px;
+  max-width: 230px;
   font-family: Arial;
   font-size: 15px;
   color: #737373;
@@ -226,7 +230,7 @@
   font-family: Arial;
   text-decoration: underline;
   cursor: pointer;
-  width: 100px;
+  max-width: 100px;
 }
 .more:hover{
   text-decoration: none;
@@ -296,11 +300,14 @@
 }
 
 .service{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px 0px;
 }
 .serve{
+  max-width: 300px;
   margin-right: 50px;
   display: flex;
   margin-bottom: 50px;
@@ -346,18 +353,23 @@
 
 .about{
   max-width: 100%;
-  display: flex;
-  justify-content: center;
   margin-bottom: 200px;
 }
 .know{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .left{
+  max-width: 300px;
   font-family: Arial;
   font-size: 3.1rem;
   margin-bottom: 1.25rem;
+}
+.wish{
+  margin-right: 20px;
+  padding: 10px;
 }
 .sit{
   color: #737373;
@@ -369,8 +381,10 @@
   margin-bottom: 1.5rem;
 }
 .bat{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .run{
   font-size: 3rem;
@@ -391,9 +405,6 @@
   line-height: 29px;
   margin-bottom: 1.25rem;
 }
-.alive{
-  margin-left: 100px;
-}
 .alive img{
   height: 450px;
   width: 450px;
@@ -405,10 +416,13 @@
 .team{
   width: 100%;
   place-content: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .us{
+  margin-bottom: 20px;
   margin-right: 50px;
 }
 .me{
@@ -438,6 +452,7 @@
   color: #4D4D4D;
   text-align: center;
   margin-bottom: 1.25rem;
+  max-width: 300px;
 }
 .media{
   display: flex;
@@ -453,13 +468,15 @@
 }
 
 .blogs{
-  padding: 100px;
+  padding: 20px;
   margin-bottom: 100px;
 }
 .blog{
   margin-top: 1.5rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .down{
   margin-right: 20px;
@@ -477,6 +494,7 @@
   cursor: pointer;
   font-size: 1.4rem;
   margin-bottom: 1.25rem;
+  max-width: 300px;
 }
 .learns:hover{
   color: #1da493;
@@ -509,6 +527,7 @@
   word-spacing: 0.02rem;
   margin-bottom: 1rem;
   text-align: left;
+  max-width: 300px;
 }
 .continue{
   font-family: Arial;
@@ -525,12 +544,16 @@
   padding: 70px 120px;
 }
 .form{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .lot{
   display: flex;
-  /* grid-template-columns: 1fr 1fr; */
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .contact{
   margin-bottom: 3rem;
@@ -542,14 +565,17 @@
   margin-bottom: 1rem;
 }
 .names{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin-bottom: 1.25rem;
 }
 .men{
   margin-right: 4rem;
   background-color: white;
   padding: 2rem;
+  margin-bottom: 20px;
 }
 .man{
   margin-right: 1.25rem;
@@ -633,7 +659,7 @@
   background-color: white;
   max-height: fit-content;
   padding: 2rem;
-  width: 22rem;
+  max-width: 22rem;
 }
 .street{
   margin-bottom: 1.5rem;

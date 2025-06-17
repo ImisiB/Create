@@ -24,9 +24,11 @@ footer{
   padding-bottom: 200px;
 }
 .foot{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 100px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 100px 0px;
 }
 .final{
   margin-right: 80px;
@@ -92,12 +94,14 @@ footer{
   border-bottom-left-radius: 0px;
 }
 .slash{
-  width: 100%;
+  width: 1000px;
   margin-bottom: 30px;
+  display: grid;
+  place-content: center;
 }
 .dash{
   margin-left: 200px;
-  width: 1000px;
+  width: 80%;
   background-color: #737373;
   height: 1px;
 }
